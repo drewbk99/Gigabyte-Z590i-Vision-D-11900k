@@ -49,7 +49,7 @@ To be repeated for every macOS Update:
 3. ```Disable SecureBoot``` in BIOS
 4. Install the macOS Update
 5. Run the OCLP Patcher and start the "Post-install Root Patch".
-6. Enable SecureBoot via config.plist: ```SecureBootModel = ```(your SecureBootModel according to here: https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel) and ```DmgLoading = Any```
+6. Enable SecureBoot via config.plist: ```SecureBootModel = ```(your SecureBootModel according to here: https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel) and ```DmgLoading = Signed```
 7. Enable SecureBoot in BIOS again
 
 ## Getting the OpenCore Legacy Patcher
